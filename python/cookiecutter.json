@@ -1,5 +1,7 @@
 {
-    "directory_name": "project-name",
-    "author_name": "your-name",
-    "author_email": "your-email"
+    "project_name": "Project Name",
+    "__directory_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your Name",
+    "dependency_manager": ["pip", "poetry"],
+    "compatible_python_versions": "^3.9"
 }
